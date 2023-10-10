@@ -1,3 +1,4 @@
+import java.lang.Integer.sum
 import java.util.*
 import kotlin.random.Random
 
@@ -111,6 +112,28 @@ fun Null_체크3(){
         null_check2 = null_check1
     }
 }
+
+
+//sum
+//import java.lang.Integer.sum 사용됨
+//탑 레벨 함수
+fun 숫자_합치기1(){
+    print(sum(10, 20))
+}
+
+fun 숫자_합치기2_1(a : Int, b : Int) : Int {
+    return a + b
+}
+
+//숫자_합치기2_1 간단하게 줄여서 사용하기(한줄일 경우에만 사용가능)
+fun 숫자_합치기2_2(a : Int, b : Int) : Int = a + b
+
+//리턴값까지 생략가능
+fun 숫자_합치기2_3(a : Int, b : Int) = a + b
+
+//메소드 오버로드
+fun 숫자_합치기3(a : Int, b : Int, c : Int = 0) = a + b + c
+
 
 
 //max, min
