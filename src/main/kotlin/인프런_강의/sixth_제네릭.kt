@@ -1,3 +1,5 @@
+package 인프런_강의
+
 fun main(){
     val first_box = Box1<Int>(10)    //val first_box = Box(10) -> 타입추론으로 줄여쓰기 가능
     val second_box = Box1<String>("박스")

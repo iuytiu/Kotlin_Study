@@ -1,3 +1,5 @@
+package 인프런_강의
+
 //listOf - 값이 변경불가한 List
 val listX = listOf(1, 2, 3, 4, 5)
 

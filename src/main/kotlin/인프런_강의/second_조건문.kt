@@ -1,3 +1,5 @@
+package 인프런_강의
+
 var i = 10
 
 //Java if문 - if문 자체가 값으로 인식(식으로 치환불가 = 값 리턴불가)
@@ -56,7 +58,9 @@ fun when문3() {
     var result2 = when {
         i < 10 -> {
             print("i는 10보다 크다")
-        }i > 10 -> {
+        }
+
+        i > 10 -> {
             print("i는 10보다 작다")
         }else -> {
             print("i는 10이다")

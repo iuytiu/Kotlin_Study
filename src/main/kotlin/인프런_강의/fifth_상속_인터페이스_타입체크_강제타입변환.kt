@@ -1,4 +1,4 @@
-//오버라이드 불가(기본 상속)
+package 인프런_강의//오버라이드 불가(기본 상속)
 //abstract class Animal(){
 //    fun move(){
 //        println("움직이는 동물")
@@ -43,7 +43,7 @@ interface Eat{
 }
 
 
-class Cat2 : Animal(), Eat{
+class Cat2 : Animal(), Eat {
     override fun move() {
         //super.move()
         println("야옹, 고양이")
@@ -55,7 +55,7 @@ class Cat2 : Animal(), Eat{
     }
 }
 
-class Dog2 : Animal(), Eat{
+class Dog2 : Animal(), Eat {
     override fun move() {
         //super.move()
         println("멍멍, 강아지")

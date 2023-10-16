@@ -1,3 +1,5 @@
+package 인프런_강의
+
 import java.lang.Integer.sum
 import java.util.*
 import kotlin.random.Random

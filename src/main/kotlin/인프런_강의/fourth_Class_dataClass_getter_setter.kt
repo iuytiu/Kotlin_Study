@@ -1,3 +1,5 @@
+package 인프런_강의
+
 fun main(){
     val suJin1 = Person("suJin", 21)
     val suJin2 = Person("suJin", 21)
